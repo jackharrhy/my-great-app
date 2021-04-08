@@ -8,3 +8,7 @@ def hello_world():
 @app.route('/<a>/add/<b>')
 def add(a, b):
     return str(int(a) + int(b))
+
+@app.route('/<a>/subtract/<b>')
+def subtract(a, b):
+    return str(int(a) - int(b))
