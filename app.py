@@ -9,6 +9,6 @@ def hello_world():
 def add(a, b):
     return str(int(a) + int(b))
 
-@app.route('/<a>/subtract/<b>')
-def subtract(a, b):
+@app.route('/<a>/minus/<b>')
+def minus(a, b):
     return str(int(a) - int(b))
