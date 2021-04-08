@@ -7,4 +7,4 @@ def hello_world():
 
 @app.route('/<a>/plus/<b>')
 def plus(a, b):
-    return str(int(a) - int(b))
+    return str(int(a) + int(b))
