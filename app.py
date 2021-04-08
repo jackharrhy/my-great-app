@@ -5,6 +5,6 @@ app = Flask(__name__)
 def hello_world():
     return 'Hello, GitHub session folk!'
 
-@app.route('/<a>/plus/<b>')
-def plus(a, b):
+@app.route('/<a>/add/<b>')
+def add(a, b):
     return str(int(a) + int(b))
